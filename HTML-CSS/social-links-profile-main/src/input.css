@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anchor-links {
+  @apply bg-grey-700 w-full p-3 rounded-md text-white hover:bg-green hover:text-grey-800 transition-colors;
+}
