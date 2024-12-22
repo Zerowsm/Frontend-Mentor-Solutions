@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "build": "npm run build:css && copy .\\src\\index.html .\\dist\\"
+  },
   "dependencies": {
     "tailwindcss": "^3.4.17"
   }
